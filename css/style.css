@@ -448,14 +448,35 @@ li.menu__item:nth-child(6) {
 }
 /*-- //banner-text --*/
 /*-- banner-top --*/
-.w3layouts-banner-top{
-    background: url(../images/1.jpg) no-repeat 0px 0px;
-    background-size: cover;	
-	-webkit-background-size: cover;	
-	-moz-background-size: cover;
-	-o-background-size: cover;		
-	-moz-background-size: cover;
+
+.w3layouts-banner-top {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Set height to viewport height */
+    overflow: hidden;
 }
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Set height to match parent */
+}
+
+.video-container video {
+    width: 100%; /* Ensure video fills container width */
+    height: 100%; /* Ensure video fills container height */
+    object-fit: inherit; /* Cover the entire container */
+}
+
+
+
+
+
+
+
+
 .w3layouts-banner-top1{
 	background: url(../images/2.jpg) no-repeat 0px 0px;
     background-size: cover;	
