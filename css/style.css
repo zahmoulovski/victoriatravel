@@ -1478,7 +1478,7 @@ text-align:center;
 /*-- //Gallery Section --*/
 /*-- contact --*/
 section.contact-w3ls {
-	background:url(../images/contact.jpg) no-repeat;
+	background-color: #fff6d134;
 	background-position:center;
 	background-attachment:fixed;
 	background-size:100% 100%;
@@ -1505,7 +1505,7 @@ section.contact-w3ls p.contact-agile1 a {
 	color:#fff;
 }
 section.contact-w3ls .contact-agileits,.contact-w3-agile1 {
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.651);
     padding: 20px 35px;
 }
 section.contact-w3ls h4 {
@@ -1539,10 +1539,10 @@ section.contact-w3ls label.contact-p1 {
 section.contact-w3ls p.help-block {
     color:#ff0500!important;
 }
-section.contact-w3ls input#name, section.contact-w3ls input#email, section.contact-w3ls input#phone  {
+section.contact-w3ls input#name, section.contact-w3ls input#email, section.contact-w3ls textarea#message  {
 	height:37px;
 }
-section.contact-w3ls input#name, section.contact-w3ls input#email, section.contact-w3ls input#phone {
+section.contact-w3ls input#name, section.contact-w3ls input#email, section.contact-w3ls textarea#message {
 	font-size:17px;
 	font-weight:normal;
 	color:#fff;
