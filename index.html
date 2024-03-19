@@ -643,14 +643,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="contact-agileits">
 				<div class="contact-form">
 					<h4>Formulaire de contact</h4>
-					<form action="send_mail.php" method="post">
+					<form action="mail.php" method="post">
 						<label  class="contact-p1" for="name">Nom:</label><br>
-							<input type="text" id="name" name="name"  class="form-control" required data-validation-required-message="Please enter your name."><br><br>
+							<input type="text" id="name" name="name"  class="form-control" required><br><br>
 						<label class="contact-p1" for="email">Email:</label><br>
-							<input type="email" id="email" name="email"  class="form-control"  required data-validation-required-message="Please enter your Email."><br><br>
+							<input type="email" id="email" name="email"  class="form-control"  required><br><br>
 						<label class="contact-p1" for="message">Message:</label><br>
-							<textarea id="message" name="message" rows="4"  class="form-control" required data-validation-required-message="Please enter your Message."></textarea><br><br>
-						<button class="formbutton btn btn-primary" type="submit">Envoyer le message</button>
+							<textarea id="message" name="message" rows="4"  class="form-control" required></textarea><br><br>
+						<!-- <button class="formbutton btn btn-primary" type="submit">Envoyer le message</button>-->
+						<button class="formbutton" type="submit">Envoyer le message</button>
 					</form>
 				</div>
 			</div>

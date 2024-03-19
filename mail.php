@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['message'];
 
     // Set up recipient email address
-    $to = 'contact@santiago.tn'; // Change this to your recipient email address
+    $to = 'contact@victoriatraveltunisia.tn'; // Change this to your recipient email address
 
     // Prepare email headers
     $headers = "From: $name <$email>" . "\r\n";
@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers .= "X-Mailer: PHP/" . phpversion();
 
     // Send email using mail() function
-    if (mail($to, 'Santiago - Nouveau formulaire de contact', "Nom: $name\nEmail: $email\nMessage: $message", $headers)) {
+    if (mail($to, 'Victoria Travel - Nouveau formulaire de contact', "Nom: $name\nEmail: $email\nMessage: $message", $headers)) {
         // Email sent successfully
         $successMessage = 'Le message a été envoyé';
     } else {
